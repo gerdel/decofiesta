@@ -386,9 +386,8 @@ span{
     background: none;
   }
 
-  header nav ul li:hover{
-    background-color: #da1884;
-    cursor: pointer;
+  .close{
+    display: block;
   }
 
   #menu{
