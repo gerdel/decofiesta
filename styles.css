@@ -50,6 +50,7 @@ header{
   color: white;
   left: -10px;
   cursor: pointer;
+  display:none;
 }
 
 .effect, .effect-1{
