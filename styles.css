@@ -36,6 +36,7 @@ header nav ul{
   z-index: 30px;
 }
 
+
 header{
   position: fixed;
   background: rgb(55,15,25,0.8);
@@ -50,7 +51,7 @@ header{
   color: white;
   left: -10px;
   cursor: pointer;
-  display:none;
+  display: none;
 }
 
 .effect, .effect-1{
