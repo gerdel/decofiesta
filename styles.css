@@ -1,0 +1,579 @@
+html, body{
+  margin: auto;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+header nav ul li{
+  list-style-type: none;
+  padding: 10px;
+  display: inline;
+  background-color: #d20962;
+  color:white;
+  border-radius: 5px;
+  position: relative;
+  top: 5px;
+  z-index: 12;
+}
+
+header nav ul li:hover{
+  background-color: #da1884;
+  cursor: pointer;
+}
+header nav ul{
+  text-align: center;
+  padding: 15px 0 0 0;
+  font-size: 16px;
+  font-family: Unna;
+  height: 25px;
+  margin-top: 7px;
+  float: left;
+  margin-left: 15px;
+}
+
+#menu{
+  display: none;
+  z-index: 30px;
+}
+
+header{
+  position: fixed;
+  background: rgb(55,15,25,0.8);
+  width: 100%;
+
+}
+
+.close{
+  position: relative;
+  font-size: 25px;
+  float: right;
+  color: white;
+  left: -10px;
+  cursor: pointer;
+}
+
+.effect, .effect-1{
+    position: relative;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.effect{
+  background-image: url("globos5.jpg");
+  height: 100%;
+  opacity: 0.9;
+  z-index: 10;
+}
+
+
+.effect-1{
+  background-image: url("globos2.jpg");
+  height: 100%;
+  opacity: 0.9;
+
+}
+
+.insider{
+  position: relative;
+  width: 70%;
+  margin: auto;
+  padding:  10px 0 10px 0px;
+  top:35%;
+  background:rgba(0, 0, 0, 0.4);
+  z-index: -1;
+}
+
+.insider > h1{
+  font-family: Courgette;
+  color: white;
+  text-align: center;
+  font-size: 60px;
+
+}
+
+.insider > .text{
+  color:white;
+  font-family: roboto;
+}
+
+.inside{
+  width: 100%;
+}
+
+.search{
+  position: fixed;
+  margin-top: 35px;
+  z-index: 3;
+  width: 100%;
+  float: left;
+  display: inline;
+  display: flex;
+  justify-content: flex-end;
+  left:-15px;
+
+}
+
+.article{
+  position: relative;
+  width: 80%;
+  padding: 6px;
+  top: -15px;
+  text-align: center;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  border-bottom:2px solid #2dde98;
+  font-family: unna;
+  font-size: 18px;
+}
+
+.article:hover{
+  border: 1px solid #2dde98;
+  outline: none;
+}
+
+.icon{
+  width: 300px;
+  vertical-align: middle;
+  white-space: nowrap;
+  position: relative;
+}
+
+.icon-search{
+  position: absolute;
+  top: -20px;
+  margin-left: 4px;
+  margin-top: 6px;
+  z-index: 7;
+  color: #4f5b66;
+  background-color: white;
+  width: 10%;
+  height: 30px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 3px;
+}
+
+.fas{
+    position: relative;
+    top:8px;
+}
+
+input[name='buscar']{
+  position: relative;
+  width: 10%;
+  padding: 5px;
+  top: -15px;
+  margin-left: -40px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background: #01cd74;
+  color: white;
+  font-size: 18px;
+  font-family: unna;
+}
+
+input[name='buscar']:hover{
+  background: #5ecc62;
+}
+.flex-container{
+  display: flex;
+  width: 80%;
+  background-color: rgba(0, 0, 0, 0);
+  justify-content: space-between;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.fiesta > img{
+  width: 100%;
+  border-radius:10px;
+  box-shadow: 1px 1px 4px 1px gray;
+}
+
+.fiesta{
+  display: flex;
+  width: 100%;
+  margin: auto;
+  padding: 10px;
+}
+
+.flex-container > p{
+  font-size: 20px;
+  width: 90%;
+  font-family: unna;
+  text-align: justify;
+  padding: 0px 0px 0px 30px;
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
+  flex-wrap: nowrap;
+}
+
+.container-img{
+  width: 25%;
+  margin-top: 50px;
+  padding: 10px;
+  margin-left: 25px;
+  margin-right:  25px;
+  color: #4d4f53;
+  box-shadow: 1px 0px 10px 1px #52565e;
+}
+
+.container-img > a{
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  background: #1aafd0;
+  font-size: 16px;
+  font-family: sans-serif;
+  border-radius: 5px;
+  position: relative;
+  top: -10px;
+}
+
+.container-img > a:hover{
+  background: #44c7f4;
+}
+
+.container-img > img{
+  width: 100%;
+
+}
+
+footer{
+  display: flex;
+  width: 100%;
+  top:10%;
+  position: relative;
+  height: 400px;
+  background: #333333;
+  color: white;
+}
+
+.foot-content{
+  width: 20%;
+  height: 100px;
+  padding: 10px;
+  position: relative;
+  margin-top: 50px;
+  margin-left: 50px;
+  font-size: 18px;
+
+}
+
+.foot-content > a{
+  position: relative;
+  text-decoration: none;
+  color: white;
+  background:#ee4f4f;
+  padding: 10px;
+  top: 40px;
+  border-radius: 5px;
+}
+
+.foot-content > a:hover{
+  background: #da5a47;
+}
+
+.form-comment{
+  width: 40%;
+  display: flex;
+  margin: auto;
+  margin-top:50px;
+}
+
+.input-comment{
+  padding: 10px;
+  width: 70%;
+  border-radius: 2px;
+  border:none;
+  font-size: 16px;
+  margin-top:10px;
+  outline: none;
+}
+
+.input-comment:hover{
+  border: none;
+  border-bottom: 3px solid green;
+  outline: none;
+}
+
+input[name='send']{
+  width: 50%;
+  background:#ee4f4f;
+  color: white;
+  border-radius:5px;
+}
+
+input[name='send']:hover{
+  background: #da5a47;
+  cursor: pointer;
+  border-bottom:none;
+}
+
+.contact{
+  width: 15%;
+}
+
+.social{
+  position: relative;
+  font-size: 20px;
+  display: block;
+  margin-left: -20px;
+  padding: 5px;
+  margin-top: 5px;
+  top:50px;
+  cursor: pointer;
+}
+
+.rights{
+  position: relative;
+  background: #52565e;
+  height: 70px;
+  border: 2 solid white;
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+  border-top: 1px solid #6d6e70;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+span{
+  position: relative;
+  top:25px;
+  font-size: 14px;
+  color: #caccd1;
+  font-family: sans-serif;
+}
+
+@media screen and (max-width:750px){
+  header nav{
+    position: fixed;
+    display: none;
+    height: 100%;
+    background-color: #323b43;
+    width: 70%;
+    text-align: center;
+    top:0px;
+    z-index: 40;
+  }
+
+  header nav ul{
+    position: relative;
+    margin: 0;
+    width: 100%;
+    top:0%;
+  }
+  header nav ul li{
+    padding: 10px;
+    display: block;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    margin-top: 1px;
+    font-size: 25px;
+    background: none;
+  }
+
+  header nav ul li:hover{
+    background-color: #da1884;
+    cursor: pointer;
+  }
+
+  #menu{
+    height: 45px;
+    margin-left: 30px;
+    margin-top: 10px;
+    color: white;
+    font-size: 20px;
+    display: block;
+    cursor: pointer;
+  }
+
+  .insider{
+    width: 80%;
+  }
+
+  .search{
+    top:-10px;
+  }
+
+  .flex-container{
+    width: 100%;
+  }
+
+  .flex-container > p{
+    width: 100%;
+    font-size: 17px;
+    padding: 0px 30px 0px 30px;
+  }
+
+  .contact{
+    width: 20%;
+  }
+
+  .social{
+    font-size: 14px;
+  }
+
+.foot-content{
+  width: 30%;
+  margin-left: 40px;
+  font-size: 14px;
+}
+
+.form-comment{
+  width: 50%;
+}
+
+.input-comment{
+  padding: 7px;
+  width: 70%;
+  font-size: 12px;
+}
+
+input[name='send']{
+  width: 50%;
+}
+
+@media screen and (max-width:569px){
+  input[name='buscar']{
+    width: 13%;
+    padding: 2px;
+    top: -10px;
+    margin-left: -40px;
+    font-size: 13px;
+    height: 25px;
+  }
+    .container-img > h1{
+      font-size: 14px;
+    }
+
+    .container-img > a{
+      padding: 4px;
+      font-size: 12px;
+      top: 1px;
+    }
+
+  .flex-container > p{
+    font-size: 12px;
+    padding: 0px 30px 0px 30px;
+  }
+
+  .article{
+    width: 60%;
+    padding: 3px;
+    font-size: 14px;
+    margin-left: 70px;
+    margin-top: 5px;
+  }
+
+  .icon-search{
+    top: -16px;
+    margin-left: 75px;
+    margin-top: 6px;
+    width: 5%;
+    height: 5px;
+    font-size: 10px;
+  }
+
+  .fas{
+      top:6px;
+  }
+
+  .foot-content > a{
+    padding: 7px;
+  }
+
+  .insider > h1{
+    font-size: 40px;
+  }
+
+}
+
+@media screen and (max-width:450px){
+  .insider > h1{
+    font-size: 30px;
+    width: 90%;
+    padding: 10px;
+  }
+
+  .flex-container > p{
+    font-size: 10px;
+    padding: 0px 30px 0px 30px;
+  }
+
+  .container{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto;
+  }
+
+  .container-img{
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+    box-shadow: 1px 0px 5px 1px #52565e;
+  }
+
+  .container-img > h1{
+    font-size: 30px;
+  }
+
+  .container-img > a{
+
+    padding: 5px;
+    background: #1aafd0;
+    font-size: 14px;
+    top: -8px;
+  }
+
+  footer{
+    top:4%;
+    height: 300px;
+  }
+
+  .foot-content{
+    width: 30%;
+    margin-left: 10px;
+    font-size: 12px;
+  }
+
+  .foot-content > a{
+    padding: 7px;
+    top: 40px;
+  }
+
+  .contact{
+    width: 20%;
+  }
+
+  .social{
+    font-size: 10px;
+    margin-left: -20px;
+
+  }
+
+  input[name="send"]{
+    padding: 7px;
+    font-size: 11px;
+  }
+
+  .input-comment{
+    width: 70%;
+
+    font-size: 10px;
+
+  }
+
+}
