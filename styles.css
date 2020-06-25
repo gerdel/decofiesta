@@ -36,6 +36,10 @@ header nav ul{
   z-index: 30px;
 }
 
+#menu{
+  display:none;
+}
+
 header{
   position: fixed;
   background: rgb(55,15,25,0.8);
